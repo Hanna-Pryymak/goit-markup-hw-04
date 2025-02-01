@@ -652,7 +652,7 @@ button {
 }
 
 .is-open {
-  opacity: 0;
+  opacity: 1;
   visibility: visible;
   pointer-events: auto;
 }
@@ -673,7 +673,6 @@ button {
   background-color: #e7e9fc;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 50%;
-
   position: absolute;
   top: 24px;
   right: 24px;
@@ -714,7 +713,6 @@ button {
   border-radius: 4px;
   padding-left: 38px;
   padding-right: 16px;
-  /* font-style: 18px; */
   color: #000;
   outline: transparent;
 }
@@ -727,7 +725,7 @@ button {
 .modal-input:focus + .modal-icon {
   fill: #4d5ae5;
 }
-*/ .modal-label {
+.modal-label {
   display: inline-block;
   margin: 4px;
   font-size: 12px;
@@ -737,7 +735,6 @@ button {
 }
 
 .modal-icon {
-  /* fill: #2e2f42; */
   position: absolute;
   left: 16px;
   top: 50%;
@@ -841,8 +838,6 @@ button {
 }
 
 .check-icon {
-  /* fill: #404bbf; */
-  /* background-color: #404bbf; */
   width: 16px;
   height: 16px;
 }

@@ -673,8 +673,6 @@ button {
   background-color: #e7e9fc;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 50%;
-  /* stroke-width: 1px; */
-  /* stroke-opacity: #2e2f42; */
 
   position: absolute;
   top: 24px;
@@ -726,24 +724,10 @@ button {
   box-shadow: 0 0 4px rgba(77, 90, 229, 0.5);
 }
 
-/* .modal-input::placeholder {
-  font-style: 12px;
-  color: ;
-} */
-
-/* .modal-input:focus .modal-input:hover {
-  border-color: #4d5ae5;
-}
-
 .modal-input:focus + .modal-icon {
   fill: #4d5ae5;
-} */
-
-/* .modal-input:hover {
-  border-color: #4d5ae5;
-} */
-
-.modal-label {
+}
+*/ .modal-label {
   display: inline-block;
   margin: 4px;
   font-size: 12px;
